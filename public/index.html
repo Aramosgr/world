@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="data:," />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>%REACT_APP_NAME%</title>
+    <script language="javascript">
+      const d = document.domain.split('.');
+      if (d.length > 2) {
+        document.domain = d.slice(1).join('.');
+      }
+    </script>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" class="%REACT_APP_ID%"></div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=%REACT_APP_GA_TRACKING_CODE%">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', "%REACT_APP_GA_TRACKING_CODE%");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+module.exports = require('@incentivegames/ig-devtools/prettier.config.js');

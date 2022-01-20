@@ -1,0 +1,13 @@
+@import '../../theme/variables';
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__powered-by-logo {
+    background-image: $poweredBy;
+    height: 44px;
+    width: 375px;
+  }
+}
