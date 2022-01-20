@@ -6,11 +6,10 @@ import './Home.scss';
 export interface IHomeProps {}
 
 const Home = (props: IHomeProps) => {
-  const { t } = useTranslation();
 
   return (
     <section className="home">
-      <h1>{t('home')}</h1>
+      <h1>home</h1>
     </section>
   );
 };

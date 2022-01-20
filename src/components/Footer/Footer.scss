@@ -1,4 +1,4 @@
-@import '../../theme/variables';
+@import '../../variables.scss';
 
 .footer {
   display: flex;
@@ -6,7 +6,6 @@
   align-items: center;
 
   &__powered-by-logo {
-    background-image: $poweredBy;
     height: 44px;
     width: 375px;
   }

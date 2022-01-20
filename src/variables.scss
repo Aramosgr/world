@@ -1,0 +1,197 @@
+// Colors
+$black: #000;
+$white: #fff;
+
+$application-background-color: #0b0b0b;
+
+$primary-color: none;
+$primary-light-color: #ff8a00;
+$primary-dark-color: none;
+
+$secondary-color: none;
+$secondary-ligh-colort: none;
+$secondary-dark-color: #181818;
+
+$color-gray-alpha: #aaaaaa;
+$color-gray-beta: #111111;
+$color-gray-gamma: #dadada;
+$color-gray-delta: #dcdcdc;
+$color-gray-epsilon: #c2c2c2;
+$color-gray-digamma: #cccccc;
+$color-gray-zeta: #767676;
+$color-gray-eta: #8d8d8d;
+$color-gray-theta: #808080;
+$color-gray-iota: #333333;
+$color-gray-kappa: #222222;
+$color-gray-lambda: #212121;
+$color-gray-mu: none;
+$color-gray-nu: none;
+
+$success-color: #23df8c;
+$danger-color: #ff0000;
+$warning-color: none;
+$info-color: none;
+
+$color-decrease: #df2357;
+$color-increase: #128e58;
+$lost-bg-color: #df2357;
+
+$primary-light-color: #ff8a00;
+
+$menu-spearator-line: #333333;
+$selected-match-bg-color: rgba(255, 138, 0, 0.1);
+$selected-match-font-color: $black;
+
+$red: #ff0000;
+$green: #23df8c;
+
+$dark-gray: #808080;
+$light-gray: #f2f2f2;
+
+$gray: #f2f2f2;
+
+$medium-gray: #e5e5e5;
+$primary-gray: #cccccc;
+$header-gray: #767676;
+$header-border-gray: #dcdcdc;
+$font-gray: #333333;
+$empty-page-gray: #c2c2c2;
+
+$bonus-bar-color: $black;
+$bonus-bar-border-color: $black;
+$bonus-bar-progress-bar-color: $black;
+$bonus-bar-progress-bar-disable-color: $color-gray-zeta;
+$bonus-bar-current-multiplier-border-color: $black;
+$bonus-bar-color-list: #960c0b, #ad311c, #bd4a28, #ce6733, #d17a33, #d48d32, #d6a232, #b19b40, #859450, #4e8a65;
+
+$shadow: rgba(0, 0, 0, 0.5);
+$gray-shadow: rgba(70, 70, 70, 0.25);
+$bold: bold;
+$semibold: 600;
+
+// Buttons
+$won: $green;
+$won-color: $black;
+$open: $primary-light-color;
+$open-color: $black;
+
+// Main menu
+$main-menu-item-background: #222222;
+$main-menu-item-betslip-totalbets: $black;
+$main-menu-item-betslip-totalbets-bg-color: $primary-light-color;
+$main-menu-item-betslip-totalbets-border: 1px solid $primary-light-color;
+$main-menu-item-betslip-totalbets-weight: none;
+$main-menu-item-case: none;
+$main-menu-competitions: none;
+$main-menu-active-border: $primary-light-color;
+$main-menu-active-color: $black;
+$item-font-weight: none;
+$main-menu-border-top: 1px solid $menu-spearator-line;
+$main-menu-border-bottom: 1px solid $menu-spearator-line;
+$main-menu-wrapper-padding: 4px 0;
+$main-menu-padding: 4px 20px;
+
+// Competition selector
+$competition-selector-option-hover-color: $black;
+$competition-selector-option-hover-background-color: $primary-light-color;
+
+// League table
+$decrease: #fc074f;
+$increase: #209d78;
+$nochange: $color-gray-alpha;
+$league-table-header-color: $light-gray;
+$league-table-header-stats-text-color: $black;
+$league-table-header-margin: 0 0 5px 0;
+$league-table-title-weight: 500;
+$league-table-title-color: $font-gray;
+$league-table-padding: 0px;
+$league-table-box-shadow: 0;
+$league-table-border: 1px solid $header-border-gray;
+$league-table-control-history-button: $primary-light-color;
+$league-table-team-name-weight: 500;
+
+// BetSlip
+$autostake-background: #dadada;
+$autostake-border: $black;
+$autostake-color-selected: $black;
+$autostake-color-unselected: $black;
+$betslip-table-border-radius: 0;
+$betslip-table-header-background: $black;
+$betslip-bet-button-background: $green;
+$betslip-bet-button-color: $black;
+$betslip-cancelIcon-size: 14px;
+$betslip-bet-button-border-color: $black;
+$betslip-history-button-color: $primary-light-color;
+$betslip-loading-dots-color: $black;
+
+// MyBets
+$my-bets-header-weight: bold;
+$my-bets-row-header-color: $black;
+$my-bets-border-radius: 10px 10px 0 0;
+$my-bets-header-radius: 10px;
+$my-bets-header-background-color: $light-gray;
+$my-bets-history-header-background-color: $primary-light-color;
+$control-button-border-color: $black;
+$control-button-text-color: $black;
+$my-bets-margin-bottom: 7px;
+
+// BetReceipt
+$bet-receipt-header-color: $secondary-dark-color;
+$bet-receipt-header-text-transform: none;
+$bet-receipt-table-header-color: $black;
+$bet-receipt-table-header-background-color: $light-gray;
+$bet-receipt-header-weight: $semibold;
+$bet-receipt-back-button-background: $green;
+$bet-receipt-back-button-color: $black;
+$bet-receipt-control-history-button: $primary-light-color;
+
+// Matches
+$matches-active-item-color: $primary-light-color;
+$matches-item-font-weight: none;
+$matches-header-color: $black;
+$matches-header-font-weight: bold;
+$matches-header-background-color: $light-gray;
+$matches-header-bottom-border: 1px solid $header-border-gray;
+$match-table-col-border: 1px solid $header-border-gray;
+$match-table-selection-color: #8d8d8d;
+$match-table-odd-color: $black;
+$match-table-col-background: #f4f4f4;
+$match-table-selection-color-selected: $black;
+$match-table-odd-color-selected: $black;
+$match-table-col-background-selected: $primary-light-color;
+$match-table-padding: 5px 0;
+$match-markets-background: $black;
+
+// MatchesTable (Live and Result)
+$match-active-color: $black;
+$match-active-blinking: $black;
+
+// Max Bets Error
+$max-bets-error-background-color: #e0483e;
+
+$default-font-family: 'Gilroy', sans-serif;
+
+$base-font-size: 12px;
+
+// Screen Sizes
+$max-desktop-screen: 768px;
+$mobile-screen: 480px;
+$medium-screen: 420px;
+$small-screen: 360px;
+
+@mixin baseTransition {
+  transition: all 0.5s ease;
+}
+
+// Images
+$imageBasePath: '~theme/assets/images/';
+$downArrow: url('#{$imageBasePath}arrow-down.svg');
+$upArrow: url('#{$imageBasePath}arrow-up.svg');
+$cancelIcon: url('#{$imageBasePath}cancel.svg');
+$virtualLeagueLogo: url('#{$imageBasePath}virtual-league.svg');
+$betslipIcon: url('#{$imageBasePath}betslip.svg');
+$longArrow: url('#{$imageBasePath}long-arrow.png');
+$poweredBy: url('#{$imageBasePath}Incentive.png');
+$union: url('#{$imageBasePath}Union.svg');
+$timer: url('#{$imageBasePath}timer.svg');
+$live: url('#{$imageBasePath}live.svg');
