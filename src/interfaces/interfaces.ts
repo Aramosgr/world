@@ -3,3 +3,9 @@ export interface IRootState {
   AppReducer: any;
   UserReducer: any;
 }
+
+export interface IRoute {
+  name: string;
+  path: string;
+  icon: Function;
+}

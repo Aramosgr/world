@@ -1,10 +1,7 @@
 import React from 'react';
-import ReactGA from 'react-ga';
 import { Provider } from 'react-redux';
 import ReactDOM from 'react-dom';
 import { I18nextProvider } from 'react-i18next';
-import { gaUtilities } from 'utilities/GaUtilities';
-import { ReactGACategories } from 'constants/appEnums';
 import i18n from './i18/i18n';
 
 import App from './App';

@@ -1,13 +1,20 @@
-interface IRoute {
-  name: string;
-  path: string;
-}
+import { MoveToInbox, Home, People, SupervisorAccount,  Apps, Compare, Looks5, Error } from '@material-ui/icons';
 
-export const home: IRoute = {
-  name: 'Home',
-  path: '/',
-};
-export const error: IRoute = {
-  name: 'Error',
-  path: '/error',
+
+export const routes = {
+  home: {
+    name: 'Home',
+    path: '/',
+    icon: Home,
+  },
+  worldmap: {
+    name: 'WorldMap',
+    path: '/world-map',
+    icon: People
+  },
+  error: {
+    name: 'Error',
+    path: '/error',
+    icon: Error
+  }
 };
