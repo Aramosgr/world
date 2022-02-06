@@ -1,25 +1,19 @@
-import { SET_STATE } from '../types';
+import { SET_HI } from '../types';
+import WorldService from '../../services/worldService';
 
-export const setStatus = (status: string) => ({ type: SET_STATE, status });
+export const worldService = new WorldService();
+export const setHi = (hi: string) => ({ type: SET_HI, hi });
 
-/*
- * API call example
 
-import SportsService from '../../services/sportService';
-
-const sportService = new SportsService();
-
-export const getEvents = (eventGroupId: number) => {
+export const getPlayer = () => {
   return (dispatch: any) => {
-    sportService
-      .getEvents(eventGroupId)
+    worldService
+      .getPlayer()
       .then((response: any) => {
-        dispatch(getEventsSuccess(response.data?.events));
+        dispatch(setHi(response.data.sopita));
       })
       .catch((error: any) => {
-        dispatch(getEventsFailure(error));
+
       });
   };
 };
-
-*/

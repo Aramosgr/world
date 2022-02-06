@@ -1,5 +1,3 @@
-import React, { useContext, useEffect } from 'react';
-
 import Routes from './components/Routes';
 
 import './App.scss';

@@ -86,7 +86,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://lalalala.com/",
+  "proxy": "https://api.vvaworld.com",
   "husky": {
     "hooks": {
       "pre-push": "",

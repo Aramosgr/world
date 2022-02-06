@@ -12,13 +12,11 @@ export const getHeaders = (token: string) => {
       }
     : {
         'Content-Type': 'application/json',
-        'X-IG-ExtToken': `${token}`,
-        'X-IG-SiteId': process.env.REACT_APP_SITE_ID || ''
       };
 };
 
-export const sportProxy = axios.create({
-  baseURL: (process.env.REACT_APP_SPORTS_API_URL || '') + '/sportsapi',
+export const worldProxy = axios.create({
+  baseURL: (process.env.REACT_APP_WORLD_API_URL || '') + '/worldapi',
   timeout: parseInt(process.env.REACT_APP_REQUEST_TIMEOUT || '0', 10),
   headers: { 'Content-Type': 'application/json' }
 });

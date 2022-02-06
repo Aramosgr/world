@@ -1,4 +1,5 @@
 const appState = {
+  hi: undefined,
   error: undefined,
 };
 

@@ -1,4 +1,4 @@
-import { MoveToInbox, Home, People, SupervisorAccount,  Apps, Compare, Looks5, Error } from '@material-ui/icons';
+import { Home, People, Error } from '@material-ui/icons';
 
 
 export const routes = {
