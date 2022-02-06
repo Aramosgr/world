@@ -1,7 +1,7 @@
 import { IRootState } from 'interfaces/interfaces';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getPlayer, worldService } from 'store/actions/appActions';
+import { getPlayer } from 'store/actions/appActions';
 
 import './Home.scss';
 
@@ -14,7 +14,7 @@ const Home = (props: IHomeProps) => {
   
   useEffect(() => {
     dispatch(getPlayer());
-  }, []);
+  }, [dispatch]);
 
 
   return (
