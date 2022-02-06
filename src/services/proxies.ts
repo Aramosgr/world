@@ -16,7 +16,7 @@ export const getHeaders = (token: string) => {
 };
 
 export const worldProxy = axios.create({
-  baseURL: (process.env.REACT_APP_WORLD_API_URL || 'https://api.vvaworld.com') + '/worldapi',
+  baseURL: 'https://api.vvaworld.com/worldapi',
   timeout: parseInt(process.env.REACT_APP_REQUEST_TIMEOUT || '0', 10),
   headers: { 'Content-Type': 'application/json' }
 });
